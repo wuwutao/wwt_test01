@@ -1,8 +1,4 @@
 """
-print("haha")
-print(12)
-print((12+220)*30-599)
-print("haha"*100)
 
 a="ha"
 b=input("输入的内容：")
