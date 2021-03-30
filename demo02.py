@@ -68,12 +68,14 @@ print(x)
 
 print(a)
 
-"""
+
 
 print("请输入你的个人信息：")
 a =input("name:")
 b =input("age:")
 c=input("sex:")
+
+
 
 list={}
 list.update(name=a)
@@ -83,3 +85,26 @@ list.update(sex=c)
 print(list)
 
 print("haha")
+a={"name":input("姓名："),"age":input("年龄："),"sex":input("性别：")}
+print(a)
+"""
+
+# name =input("name:")
+# b =input("age:")
+# c=input("sex:")
+# list.update(name=name,age=b,sex=c)
+# print(list)
+
+print("请输入你的个人信息：")
+a =input("name:")
+b =input("age:")
+c=input("sex:")
+
+
+
+list={}
+list.update(name=a)
+list.update(age=b)
+list.update(sex=c)
+
+print(list)
