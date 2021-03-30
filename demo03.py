@@ -152,6 +152,7 @@ if  len(a) >= 5 and len(a) <= 8  :
 else:
     print("输入账号的格式不正确，请重新输入:")
 
+"""
 # break
 
 for i in range(10):
@@ -167,4 +168,3 @@ for i in range(1,10):
         print(i,"*",j,"=",i*j,end=" ")
     print()
 
-"""
