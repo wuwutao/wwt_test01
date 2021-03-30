@@ -100,11 +100,11 @@ a =input("name:")
 b =input("age:")
 c=input("sex:")
 
-
-
 list={}
 list.update(name=a)
 list.update(age=b)
 list.update(sex=c)
 
 print(list)
+
+print("a")
