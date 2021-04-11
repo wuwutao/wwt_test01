@@ -1,0 +1,35 @@
+#测试用例1
+-
+  name: 接口测试用例01
+  request:
+    url: https://tianqiapi.com/api
+    method: get
+    params:
+      version: v61
+      appid: 89429983
+      appsecret: kF44dUHr
+      city: 上海
+    headers:
+      Content-Type: application/json
+  validate:
+    - eq: {expires_in: 7200}
+
+#测试用例二，如果想增加用例直接改yaml就行
+#直接根据测试用例，进行数据的添加，更改，删除，生成新的测试用例，进行测试
+
+# -
+#   name: 接口测试用例02
+#   request:
+#     url: https://tianqiapi.com/api
+#     method: get
+#     params:
+#       version: v61
+#       appid: 89429983
+#       appsecret: kF44dUHr
+#       city: 北京
+#     headers:
+#       Content-Type: application/json
+#   validate:
+#     - eq: {expires_in: 7200}
+
+
